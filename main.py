@@ -17,6 +17,7 @@ DEFAULT_CARDS = [
     ("Current", "Текущий"), ("Develop", "Разрабатывать")
 ]
 
+print('я украл твой код')
 
 def init_db():
     conn = sqlite3.connect('base.db')
