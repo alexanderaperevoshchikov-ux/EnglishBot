@@ -18,6 +18,10 @@ WORDS_DATA = [
     ("Starlight", "5 класс", "Module 1", "Planet", "Планета"), ("Starlight", "5 класс", "Module 1", "Star", "Звезда")
 ]
 
+
+print('я вернул свой код')
+
+
 def init_db():
     conn = sqlite3.connect('base.db')
     cursor = conn.cursor()
